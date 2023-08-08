@@ -1,0 +1,19 @@
+.promo > .container
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 1fr 64px;
+
+	box-sizing: border-box;
+	max-width: @desktop-width;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 20px;
+	padding-left: 106px;
+
+	@media ( min-width: @desktop-width ) 
+	{
+		min-height: 0;
+		max-height: max-content;
+	}
+}

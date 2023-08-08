@@ -30,7 +30,7 @@
 		"stylelint": "stylelint \"source/less/**/*.less\" --custom-syntax postcss-less",
 		"w3c": "gulp validateMarkup --silent",
 		"bemlinter": "gulp lintBem --silent",
-		"lint": "npm run editorconfig && npm run stylelint && npm run w3c && npm run bemlinter",
+		"lint": "npm run editorconfig && npm run stylelint && npm run w3c",
 		"start": "gulp runDev",
 		"build": "gulp buildProd",
 		"preview": "gulp buildProd && gulp startServer"

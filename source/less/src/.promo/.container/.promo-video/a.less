@@ -1,0 +1,33 @@
+.promo > .container > .promo-video > a
+{
+	position: absolute;
+	top: 60%;
+	right: 0;
+	left: 0;
+
+	max-width: 250px;
+	margin: 0 auto;
+
+	font-size: 21px;
+	line-height: 30px;
+	text-align: center;
+
+	color: @basic-primary;
+
+	&::before 
+	{
+		position: absolute;
+		right: 0;
+		bottom: 47px;
+		left: 0;
+
+		width: 254px;
+		height: 254px;
+		margin: 0 auto;
+
+		content: "";
+
+		background-image: url("../../../../../img/play.svg");
+		background-repeat: no-repeat;
+	}
+}

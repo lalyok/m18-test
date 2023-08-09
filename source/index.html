@@ -147,7 +147,7 @@
 				</div>
 			</section>
 
-			<section id="notice">
+			<section class="notice" id="notice">
 				<div class="container">
 					<h2 class="visually-hidden">Подписка на уведомления</h2>
 					<form method="post">
@@ -158,24 +158,30 @@
 							</svg>
 							<p>Первым 10 клиентам стальная входная дверь в&nbsp;подарок</p>
 						</div>
-						<label class="visually-hidden" for="name">Имя и фамилия</label>
-						<input type="text" id="name" placeholder="Имя и фамилия*" required/>
-						<label class="visually-hidden" for="email">Е-mail адрес</label>
-						<input type="email" id="email" placeholder="Е-mail адрес*" required/>
-						<label class="visually-hidden" for="phone">Телефон</label>
-						<input type="tel" id="phone" placeholder="Телефон"/>
+						<div class="form-field">
+							<input type="text" id="name" placeholder="Имя и фамилия*" required/>
+							<label for="name">Имя и фамилия*</label>
+						</div>
+						<div class="form-field">
+							<input type="email" id="email" placeholder="Е-mail адрес*" required/>
+							<label for="email">Е-mail адрес*</label>
+						</div>
+						<div class="form-field">
+							<input type="tel" id="phone" placeholder="Телефон"/>
+							<label for="phone">Телефон</label>
+						</div>
 						<button type="submit">Подписаться</button>
 						<small>
 							* Обязательные для заполнения поля 
 							<a href="#">Политика конфиденциальности</a>
 						</small>
+						<div class="popup">
+							<svg width="194" height="128" aria-hidden="true" focusable="false">
+								<use xlink:href="img/icons/stack.svg#tick"></use>
+							</svg>
+							<p>Спасибо! Мы будем держать<br/>вас в курсе обновлений</p>
+						</div>
 					</form>
-					<div class="popup">
-						<svg width="194" height="128" aria-hidden="true" focusable="false">
-							<use xlink:href="img/icons/stack.svg#tick"></use>
-						</svg>
-						<p>Спасибо! Мы будем держать<br/>вас в курсе обновлений</p>
-					</div>
 				</div>
 			</section>
 		</main>
@@ -186,7 +192,7 @@
 						<li>
 							<a href="#">
 								<span class="visually-hidden">Наша группа в Фейсбук</span>
-								<svg width="29" height="16" aria-hidden="true" focusable="false">
+								<svg width="29" height="23" aria-hidden="true" focusable="false">
 									<use xlink:href="img/icons/stack.svg#fb"></use>
 								</svg>
 							</a>
@@ -194,7 +200,7 @@
 						<li>
 							<a href="#">
 								<span class="visually-hidden">Наша группа в Вконтакте</span>
-								<svg width="29" height="16" aria-hidden="true" focusable="false">
+								<svg width="29" height="23" aria-hidden="true" focusable="false">
 									<use xlink:href="img/icons/stack.svg#vk"></use>
 								</svg>
 							</a>
@@ -202,7 +208,7 @@
 						<li>
 							<a href="#">
 								<span class="visually-hidden">Профиль в Инстаграме</span>
-								<svg width="29" height="16" aria-hidden="true" focusable="false">
+								<svg width="29" height="23" aria-hidden="true" focusable="false">
 									<use xlink:href="img/icons/stack.svg#inst"></use>
 								</svg>
 							</a>
@@ -227,7 +233,7 @@
 						<svg width="30" height="20" aria-hidden="true" focusable="false">
 							<use xlink:href="img/icons/stack.svg#email"></use>
 						</svg>
-						9035445@gmail.com
+						<span class="underline">9035445@gmail.com</span>
 					</a>
 				</div>
 			</div>

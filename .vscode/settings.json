@@ -1,5 +1,9 @@
 {
 	"editor.insertSpaces": false,
 	"html.format.wrapLineLength": 80,
-	"editor.rulers": [80,120]
+	"editor.rulers": [
+		80,
+		120
+	],
+	"diffEditor.wordWrap": "inherit"
 }

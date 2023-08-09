@@ -1,0 +1,23 @@
+html > body > footer > .container > .company-details > a
+{
+	display: flex;
+	align-items: center;
+	gap: 9px;
+
+	font-size: 21px;
+	line-height: 30px;
+	letter-spacing: -0.1px;
+
+	color: @basic-black;
+
+	&:hover,
+	&:focus
+	{
+		color: @basic-primary;
+	}
+}
+
+html > body > footer > .container > .company-details > a > span.underline
+{
+	border-bottom: 2px solid @basic-primary;
+}

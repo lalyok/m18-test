@@ -1,0 +1,27 @@
+.notice > .container > form > .form-field > label
+{
+	position: absolute;
+	top: -9px;
+	left: 18px;
+
+	width: max-content;
+	padding-right: 7px;
+	padding-left: 7px;
+
+	font-size: 13px;
+
+	background-color: @basic-white;
+
+	transition: color 0.2s;
+}
+
+.notice > .container > form > .form-field > input:placeholder-shown + label
+{
+	opacity: 0;
+}
+
+.notice > .container > form > .form-field > input:hover + label,
+.notice > .container > form > .form-field > input:focus + label
+{
+	color: @basic-primary;
+}

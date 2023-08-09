@@ -1,0 +1,33 @@
+.notice > .container > form > .form-field > input
+{
+	display: block;
+
+	box-sizing: border-box;
+	width: 500px;
+	padding: 19px 25px 17px;
+	margin-bottom: 30px;
+
+	font-size: 18px;
+
+	border: 1px solid @light-gray;
+	border-radius: 4px;
+
+	transition: border-color 0.2s;
+
+	&::placeholder
+	{
+		color: @basic-gray;
+	}
+	
+	&:last-child
+	{
+		margin-bottom: 48px;
+	}
+
+	&:hover,
+	&:focus
+	{
+		outline: none;
+		border-color: @basic-primary;
+	}
+}
